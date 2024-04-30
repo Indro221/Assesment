@@ -80,7 +80,7 @@ body{
         .header_body_section img{
             top: 70px;
             height: 200px;
-            width: 100%;
+            width: 1080px;
             position: absolute;
         }
     }
@@ -759,7 +759,7 @@ body{
     }
 @media(max-width: 1080px){
     .clients{
-        width: 100vw;
+        width: 1080px;
         top: 3350px;
         height: 400px;
     }
@@ -771,7 +771,7 @@ footer{width: 1440px;
     }
 @media(max-width: 1080px){
     footer{
-        width: 100vw;
+        width: 1080px;
         top: 3800px;
         background-color: #F2F2F2;
         ;
