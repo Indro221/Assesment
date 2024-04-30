@@ -164,7 +164,7 @@ body{
     position: absolute;}
 @media(max-width: 1080px){
 .main_body{
-        width: 59%;
+        width: 648px;
         height: 600px;
         top: 420px;
         left: 220px;
@@ -727,7 +727,7 @@ body{
 @media(max-width: 1080px){
     .grey{
         left: 270px;
-        width: 50vw;
+        width: 540px;
         top: 2650px;
         height: 699px;
     }
