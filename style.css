@@ -8,7 +8,7 @@
 body{
     margin: 0%;
     font-family: "Poppins";
-    width: 1440px;
+    max-width: 1440px;
 }
 
 /* Header */
@@ -163,7 +163,7 @@ header{width: 1440px;
     top: 637px;
     left: 202px;
     gap: 0px;
-    opacity: 0px;
+    
     }
 /* left part */
 .left_part{margin-left: 210px;
@@ -181,7 +181,7 @@ header{width: 1440px;
         left: 202px;
         gap: 0px;
         border-radius: 12px;
-        opacity: 0px;
+        opacity: 70%;
         background: #D9D9D9;
         }
     .left_part h2{position: relative; left: 60px; bottom: 230px;
@@ -596,3 +596,24 @@ margin-left: 100px;
     width: 320px;
     margin-left: 50px;
 }
+
+@media screen and (min-width: 300px) and (max-width: 1080px){
+    .main_body{ 
+        background-color: #6bdaf3;
+        .left_part{
+            display:block;
+            background-color: #03f807;
+        }
+        .right_part{
+            display:block;
+            background-color: #ff009d;
+        }
+             }
+}
+/* 184 no. line */
+/* @media (min-width: 300px) and (max-width: 1080px){
+    .main_body{
+        display:none;
+        background-color: blueviolet;
+    }
+} */
