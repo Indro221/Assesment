@@ -5,7 +5,12 @@
 body{
     margin: 0%;
     font-family: "Poppins";
-    max-width: 1440px;
+    max-width: 1080px;
+}
+@media(max-width: 1080px){
+    body{
+        width: 1080px;
+    }
 }
 /* Header */
 /* header box */
@@ -17,7 +22,7 @@ body{
     }
 @media(max-width: 1080px){
     .header_box{
-        width: 100%;
+        width: 1080px;
         height: 70px;
     }
 }
@@ -60,6 +65,11 @@ body{
     height: 387px;
     top: 98px;
     }
+@media(max-width: 1080px){
+    .header_body_section{
+        width: 1080px;
+    }
+}
 .header_body_section img{width: 1440px;
     height: 387px;
     top: 98px;
@@ -159,6 +169,7 @@ body{
         top: 420px;
         left: 220px;
         position: absolute;
+        margin: 0%;
         }
 }
 /* left part */
@@ -467,16 +478,17 @@ body{
     height: 400px;
     top: 950px;
     left: 100px;
-    border: 3px solid rgb(0, 179, 255);
-    border-radius: 1px;
-    position: absolute;
+    margin: 0%;
     }
 @media(max-width: 1080px){
     .category{
         top: 1050px;
-        position: absolute;
-        width: 82vw;
+        width: 900px;
         height: 1000px;
+        margin: 0%;
+        position: absolute;
+        border: 1px solid rgb(134, 134, 134);
+        border-radius: 25px;
     }
 }
 .category h2{top: -10px;
@@ -522,9 +534,10 @@ body{
     }
 @media(max-width: 1080px){
     .category img{
-        width: 220px;
-    height: 250px;
-        left: -200px;
+        width: 200px;
+        height: 230px;
+        left: -80px;
+        top: 120px;
         position: relative;
     }
 }
@@ -535,16 +548,14 @@ body{
     top: 140px;
     border-radius: 8px;
     background-color: #E9F7FA;
-    border: 3px solid rgb(49, 34, 255);
-    border-radius: 1px;
     position: relative;
     }
 @media(max-width: 1080px){
     .moto_coverr{
         width: 270px;
         height: 290px;
-        left: -600px;
-        top: 350px;
+        left: -470px;
+        top: 370px;
         position: relative;
     }
 }
@@ -576,8 +587,6 @@ body{
     height: 233.88px;
     border-radius: 8px;
     background-color: #EBFDEFCC;
-    border: 3px solid rgb(0, 122, 26);
-    border-radius: 1px;
     position: relative;
     top: 140px;
     right: 1100px;
@@ -586,8 +595,8 @@ body{
     .bicycle_coverr{
         width: 270px;
         height: 290px;
-        left: -500px;
-        top: 350px;
+        left: -390px;
+        top: 370px;
         position: relative;
     }
 }
@@ -618,8 +627,6 @@ body{
     height: 233.88px;
     border-radius: 8px;
     background-color: #FAF2E7CC;
-    border: 3px solid rgb(208, 0, 198);
-    border-radius: 1px;
     position: relative;
     top: 140px;
     right: 1100px;
@@ -628,8 +635,8 @@ body{
     .auto_rickshaw_coverr{
         width: 270px;
         height: 290px;
-        left: -1140px;
-        top: 650px;
+        left: -1010px;
+        top: 670px;
         position: relative;
     }
 }
@@ -660,8 +667,6 @@ body{
     height: 233.88px;
     border-radius: 8px;
     background-color: #FEF3E6B2;
-    border: 3px solid rgb(255, 174, 0);
-    border-radius: 1px;
     position: relative;
     top: 140px;
     right: 1100px;
@@ -671,8 +676,8 @@ body{
     .car_coverr{
         width: 270px;
         height: 290px;
-        left: -1040px;
-        top: 650px;
+        left: -930px;
+        top: 670px;
         position: relative;
     }
 }
@@ -707,7 +712,8 @@ body{
     justify-content: center;
     }
 @media(max-width: 1080px){
-    .whychoose{width: 100vw;
+    .whychoose{width: 1080px;
+        left: 0px;
     top: 2100px;
     height: 500px;
     }
@@ -716,8 +722,6 @@ body{
 .grey{width: 1440px;
     height: 298px;
     top: 2154px;
-    border: 3px solid rgb(34, 255, 119);
-    border-radius: 1px;
     position: absolute;
     }
 @media(max-width: 1080px){
@@ -732,8 +736,8 @@ body{
 @media(max-width: 1080px){
     .grey-right{
     height: 233px;
-    border: 3px solid rgb(49, 34, 255);
-    border-radius: 1px;
+    border: 3px solid rgb(177, 177, 177);
+    border-radius: 10px;
     }
     .grey-right img{
         width:190px;
@@ -763,8 +767,6 @@ body{
 footer{width: 1440px;
     height: 419px;
     top: 3173px;
-    border: 3px solid rgb(255, 154, 253);
-    border-radius: 1pxrgb(255, 165, 237);
     position: absolute;
     }
 @media(max-width: 1080px){
