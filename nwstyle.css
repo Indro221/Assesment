@@ -17,8 +17,6 @@ body{
 .header_box{
     width: 1440px;
     height: 98px;
-    border: 3px solid burlywood;
-    border-radius: 1px;
     }
 @media(max-width: 1080px){
     .header_box{
@@ -45,19 +43,52 @@ body{
     width: 930px;
     height: 45px;
     top: 45px;
-    left: 390px;
-    border: 3px solid rgb(189, 244, 8);
-    border-radius: 1px;
+    left: 380px;
     position: absolute;
+    padding-bottom: 48px;
     }
 @media(max-width: 1080px){
     .p_nav{
         top: 16px;
-        width: 50vw;
+        width: 60vw;
         height: 35px;
+        left: 300px;
+        border: 1px solid rgb(204, 204, 204);
+        border-radius: 15px;
         position: absolute;
     }
 }
+.p_nav nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    }
+@media(max-width: 1080px){
+    .p_nav nav ul{
+        gap: 11px;
+    }
+}
+.p_nav ul li a:hover{
+    text-decoration: underline;
+     color: black;
+     cursor: pointer;
+    }
+.p_nav nav ul li{list-style: none;}
+.p_nav nav ul li a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: left;
+    color: #292D32;
+}
+@media(max-width: 1080px){
+    .p_nav nav ul li a{
+        font-size: 15px;
+    }
+}
+.btn-cart img{width: 40px;height: 40px;padding-bottom: 12px;}
 /* --- */
 /* header body */
 .header_body_section{
@@ -139,18 +170,62 @@ body{
     height: 120px;
     top: 459px;
     left: 188px;
+    background-color: #ffffff;
     border: 1px solid #EBEAEA;
+    box-shadow: 0px 2px 18px 0px #00000024;
+    border-radius: 15px;
     position: absolute;
     }
 @media(max-width: 1080px){
     .s_nav{
-        width: 65%;
+        width: 67vw;
         height: 90px;
         top: 270px;
         left: 188px;
         border: 1px solid #EBEAEA;
         border-radius: 20px;
-        position: absolute;}
+        position: absolute;
+        }
+}
+.s_nav nav{width: 1015px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 25px;
+    border: 1px solid #EBEAEA;
+    border-radius: 15px;
+    }
+@media(max-width: 1080px){
+    .s_nav nav{
+        width: 60vw;
+        height: 30px;
+    }
+}
+.s_nav nav ul{
+    display: flex;
+    position: relative;
+    top: -16px;
+    left: -39.5px;
+    gap: 3px;
+    justify-content: space-evenly;
+}
+@media(max-width: 1080px){
+    .s_nav nav ul{
+        top: -20px;
+    }
+}
+.s_nav nav ul li{list-style: none;}
+button{
+    width: 200px;
+    height: 40px;
+    background-color: #FE8400;
+    border: 1px;
+    border-radius: 15px;
+}
+@media(max-width: 1080px){
+    button{
+        width: 12vw;
+        height: 30px;
+    }
 }
 /* --- */
 /* main body */
@@ -159,12 +234,10 @@ body{
     height: 225px;
     top: 650px;
     left: 202px;
-    border: 3px solid rgb(185, 8, 8);
-    border-radius: 1px;
     position: absolute;}
 @media(max-width: 1080px){
 .main_body{
-        width: 648px;
+        width: 60vw;
         height: 600px;
         top: 420px;
         left: 220px;
@@ -182,8 +255,6 @@ body{
 .left_part{
     width: 100%;
     height: 300px;
-    border: 3px solid rgb(45, 255, 34);
-    border-radius: 1px;
         }
 }
 .left_part img{
@@ -311,8 +382,8 @@ body{
 }
 @media(max-width: 1080px){
     .left_part .coverr img{
-        width: 400px;
-        height: auto;
+        width: 38vw;
+        height: 400px;
     }
 }
 /* --- */
@@ -328,8 +399,6 @@ body{
 .right_part{
     width: 100%;
     height: 300px;
-    border: 3px solid rgb(49, 34, 255);
-    border-radius: 1px;
     left: 0px;
     top: 300px;
     position: absolute;
@@ -372,6 +441,8 @@ body{
     text-align: left;
     color: #000000;
     position: relative;
+    top: -30px;
+    left: 10px;
     }
     @media(max-width: 1080px){
         .right_part h3{position: relative;
@@ -467,8 +538,8 @@ body{
 @media(max-width: 1080px){
     .right_part .coverr img{
         top: -60px;
-        width: 400px;
-        height: auto;
+        width: 38vw;
+        height: 400px;
     }
 }
 /* --- */
@@ -793,7 +864,6 @@ footer{ display: flex;
     margin-top: 50px;
     }
 .footer-head input{width: 200px;height: 30px;margin-top: 30px;}
-.footer-head{}
 .footer-body{
         display: flex; 
         gap: 100px;
