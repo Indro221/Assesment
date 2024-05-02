@@ -818,14 +818,14 @@ button{
 }
 @media(max-width: 1080px){
     .grey-right{
-    width: 540px;
+    width: 50vw;
     height: 233px;
     border: 3px solid rgb(177, 177, 177);
     border-radius: 10px;
     margin: 0%;
     }
     .grey-right img{
-        width:190px;
+        width:18vw;
         height: 160px;
         margin-left: 170px;
     }
