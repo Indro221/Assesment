@@ -9,7 +9,7 @@ body{
 }
 @media(max-width: 1080px){
     body{
-        width: 1080px;
+        width: 100vw;
     }
 }
 /* Header */
@@ -20,7 +20,7 @@ body{
     }
 @media(max-width: 1080px){
     .header_box{
-        width: 1080px;
+        width: 100vw;
         height: 70px;
     }
 }
@@ -98,7 +98,7 @@ body{
     }
 @media(max-width: 1080px){
     .header_body_section{
-        width: 1080px;
+        width: 100vw;
     }
 }
 .header_body_section img{width: 1440px;
@@ -111,7 +111,7 @@ body{
         .header_body_section img{
             top: 70px;
             height: 200px;
-            width: 1080px;
+            width: 100vw;
             position: absolute;
         }
     }
@@ -549,15 +549,15 @@ button{
     height: 400px;
     top: 950px;
     left: 100px;
-    margin: 0%;
+    margin: 0px;
     position: absolute;
     }
 @media(max-width: 1080px){
-    .category{
+    .category{ display: unset;
         top: 1050px;
-        width: 900px;
+        width: 82vw;
         height: 1000px;
-        margin: 0%;
+        margin: 0px;
         position: absolute;
         border: 1px solid rgb(134, 134, 134);
         border-radius: 25px;
@@ -608,9 +608,9 @@ button{
     .category img{
         width: 200px;
         height: 230px;
-        left: -80px;
+        left: 340px;
         top: 120px;
-        position: relative;
+        position: absolute;
     }
 }
 .moto_coverr{display: flex;
@@ -626,8 +626,8 @@ button{
     .moto_coverr{
         width: 270px;
         height: 290px;
-        left: -470px;
-        top: 370px;
+        left: 150px;
+        top: 200px;
         position: relative;
     }
 }
@@ -667,8 +667,8 @@ button{
     .bicycle_coverr{
         width: 270px;
         height: 290px;
-        left: -390px;
-        top: 370px;
+        left: 470px;
+        top: -90px;
         position: relative;
     }
 }
@@ -707,8 +707,8 @@ button{
     .auto_rickshaw_coverr{
         width: 270px;
         height: 290px;
-        left: -1010px;
-        top: 670px;
+        left: 150px;
+        top: -60px;
         position: relative;
     }
 }
@@ -748,8 +748,8 @@ button{
     .car_coverr{
         width: 270px;
         height: 290px;
-        left: -930px;
-        top: 670px;
+        left: 470px;
+        top: -350px;
         position: relative;
     }
 }
@@ -784,7 +784,7 @@ button{
     justify-content: center;
     }
 @media(max-width: 1080px){
-    .whychoose{width: 1080px;
+    .whychoose{width: 100vw;
         left: 0px;
     top: 2100px;
     height: 500px;
@@ -845,7 +845,7 @@ button{
     }
 @media(max-width: 1080px){
     .clients{
-        width: 1080px;
+        width: 100vw;
         top: 3350px;
         height: 400px;
     }
@@ -874,7 +874,7 @@ footer{ display: flex;
     }
 @media(max-width: 1080px){
     footer{ display: unset;
-        width: 1080px;
+        width: 100vw;
         top: 3800px;
         background-color: #F2F2F2;
         ;
